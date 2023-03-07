@@ -1,0 +1,143 @@
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        white-space: 20px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .diasYHorarios{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+        font-size: 13px;
+        background-color: #E1CCEC;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        height: 105px;
+        width: 100%;
+        align-items: center;
+    }
+    .ubicacion, .reloj{
+        display: flex;
+    }
+    .reloj img{
+        margin-right: 10px;
+    }
+    .ubicacion img{
+        margin-right: 10px;
+    }
+
+    .estudio{
+        margin-left: 115px;
+        align-self: center;
+    }
+    .nav{
+        display: flex;
+        height: 40px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #E1CCEC;
+    }
+
+    ul{
+        display: flex;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    li{
+        list-style: none;
+        margin: 0 20px;
+        display: inline-block;
+    
+    }
+    a{
+        font-family: 'DM Sans', sans-serif;
+        text-decoration: none;
+        color: #000;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    li a:hover{
+        background-color: rgba(179, 106, 206, 0.15);
+    }
+    .checkbtn{
+
+        font-size: 30px;
+        color: #fff;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .burger{
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+    .burger span{
+        margin: 4px 0;
+        width: 30px;
+        height: 4px;
+        background: white;
+    }
+.contenido{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    background-color: rgba(179, 106, 206, 0.15);
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+.imagenes img{
+    box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
+    -moz-box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
+    width: 500px;
+    height: 70vh;
+}
+
+.bigLogo{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* 
+APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
+
+.imagen1,.imagen2,.imagen3{
+    display: flex;
+}
+.division, .division1,.division2{
+    display: flex;   /*para poder centrarlo con las siguientes propiedades*/
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    height: 70vh;
+    background-color: rgba(0,0,0,0.52);
+    position: absolute;
+}
+
+.disable{
+    display: none;
+} 

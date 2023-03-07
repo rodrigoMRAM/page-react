@@ -3,11 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Inicio from './Inicio';
+import Lashes from './Lashes';
+import Contenido from './Contenido';
+
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+  <Route path='/' element={<Inicio/>}>
+    <Route path='/' element={<Contenido/>}></Route>
+    <Route path='lash' element={<Lashes/>}></Route>
+  </Route>   
+));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
