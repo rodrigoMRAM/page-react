@@ -15,7 +15,11 @@ export default function Lashes(){
                     <h3>Lifting de Pestañas</h3>
                 </div>
                 <img src="img/lifting.jpg" />
-            </div></>
+            </div>
+            <div className="extensiones">
+            <h5>Lifting & Extensiones</h5>
+        </div>
+            </>
         
     );
 }

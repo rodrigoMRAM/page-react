@@ -13,7 +13,7 @@
         align-items: center;
         height: 40px;
         font-size: 13px;
-        background-color: #E1CCEC;
+        background-color: #d4b7ff;
     }
     .logo{
         display: flex;
@@ -42,7 +42,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        background-color: #E1CCEC;
+        background-color: #d4b7ff;
     }
 
     ul{
@@ -64,7 +64,8 @@
         border-radius: 4px;
     }
     li a:hover{
-        background-color: rgba(179, 106, 206, 0.15);
+        background-color: rgb(246, 222, 255);
+        transition: 0.3s;
     }
     .checkbtn{
 
@@ -90,13 +91,23 @@
         height: 4px;
         background: white;
     }
+
+    .turno{
+        color: black;
+        font-weight: bolder;
+        padding: 8px 5px;
+        background-color: rgb(246, 222, 255);
+    }
+    .turno:hover{
+        
+    }
 .contenido{
     width: 100%;
     height: 100%;
 
 }
 body{
-    background-color: rgba(179, 106, 206, 0.15);
+    background-color: #f3ebff;
 }
 
 .imagenes{
@@ -106,9 +117,9 @@ body{
     justify-content: space-around;
 }
 .imagenes img{
-    box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
-    -webkit-box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
-    -moz-box-shadow: 8px 8px 52px 11px rgba(0,0,0,0.52);
+    box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);
+-webkit-box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);
+-moz-box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);
     width: 500px;
     height: 70vh;
 }
@@ -141,3 +152,9 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
 .disable{
     display: none;
 } 
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

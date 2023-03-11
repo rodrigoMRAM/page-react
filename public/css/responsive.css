@@ -5,9 +5,13 @@
         right: 0;
         top: 30px;
     }
-    nav{
+    .nav{
+        display: flex;
         position: fixed;
         top: 0;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 auto;
         width: 100%;
         height: 100px!important;
         margin-bottom: 200px!important;
@@ -19,12 +23,12 @@
         justify-content: flex-start;
         width: 100%;
         height: 350px;
-        background-color: #E1CCEC;
+        background-color: #d4b7ff;
         top: 0;
         top: -100%;
         text-align: center;
         z-index: 2000;
-        transition: all .5s;
+        transition: all .3s;
     }
     nav ul li{
         display: flex;
@@ -47,7 +51,30 @@
         display: none;
     }
 
-    .contenido{
+    /* .contenido{
         padding-top: 100px;
+    } */
+    .imgUbicacion,.imgUbicacion1,.imgUbicacion2{
+        width: 100%;
+        padding-top: 90px;
     }
+    .imgUbicacion1,.imgUbicacion2{
+        padding-top: 30px;
+    }
+/* 
+PARTE DE LASHES */
+
+.extensiones, .lifting{
+    padding:10px;
+}
+.imagenes img{
+    box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);
+-webkit-box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);
+-moz-box-shadow: 5px 10px 7px -2px rgba(0,0,0,0.38);;
+    -moz-box-shadow: 9px 7px 76px -19px rgba(0,0,0,0.75);
+
+}
+
+
+
 }

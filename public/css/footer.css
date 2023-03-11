@@ -1,7 +1,17 @@
 .footer{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 500px;
-    background-color: #E1CCEC;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 50px 20px 0px 0px;
+    background-color: #d4b7ff;
+    padding-bottom: 30px;
+}
+.divInstagram{
+    display: flex;
+}
+.divInstagram img{
+    margin-right: 10px;
 }
