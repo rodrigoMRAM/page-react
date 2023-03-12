@@ -5,6 +5,10 @@ const division2 = document.querySelector(".division2")
 const division = document.querySelector(".division")
 const division1= document.querySelector(".division1")
 
+window.addEventListener('load',()=>{
+    alert("hola")
+})
+
 imgUbicacion.addEventListener('mouseover',(ss)=>{
     division.classList.remove("disable")
 

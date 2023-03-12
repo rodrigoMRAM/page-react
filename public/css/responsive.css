@@ -54,13 +54,11 @@
     /* .contenido{
         padding-top: 100px;
     } */
-    .imgUbicacion,.imgUbicacion1,.imgUbicacion2{
+    .imagen1 img,.imagen2 img,.imagen3 img{
         width: 100%;
         padding-top: 90px;
     }
-    .imgUbicacion1,.imgUbicacion2{
-        padding-top: 30px;
-    }
+
 /* 
 PARTE DE LASHES */
 
@@ -75,6 +73,14 @@ PARTE DE LASHES */
 
 }
 
-
+.container{
+    margin-top: 120px;
+}
+.container img{
+    width: 100%;
+}
+.imagenes{
+    flex-direction: column;
+}
 
 }

@@ -12,6 +12,13 @@
 .divInstagram{
     display: flex;
 }
-.divInstagram img{
-    margin-right: 10px;
+.linkInstagram a{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+}
+
+@media (max-width: 858px){
+    .footer{
+        justify-content: center;
+    }
 }

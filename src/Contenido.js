@@ -1,6 +1,11 @@
+import Logo from "./Logo"
 export default function Contenido(){
     return(
         <><div class="contenido">
+            <div className="container">
+                <Logo size="300px" height="300px"></Logo>
+                <h2>ESTUDIO DE PESTAÑAS</h2>
+            </div>
             <div class="imagenes">
                 <div class="imagen1">
                     <img class="imgUbicacion" src="img/estudio.jpg" alt="" srcset="" />
@@ -21,8 +26,7 @@ export default function Contenido(){
                     </div>
                 </div>
             </div>
-        </div><div class="bigLogo">
-                <img src="img/logopng.PNG" alt="" srcset="" width="400px" />
-            </div></>
+        </div>
+        </>
     )
 }

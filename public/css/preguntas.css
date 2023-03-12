@@ -1,0 +1,65 @@
+.preguntasFrecuentes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px!important;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 800px;
+}
+.tituloExtensiones{
+    margin-bottom: 30px;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around!important;
+    margin-bottom: 20px;
+}
+.botones ul li a:active{
+    background-color: red;
+}
+h6{
+    font-size: 20px;
+}
+.violetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d4b7ff;
+    height: 150px;
+}
+.colorFondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    background-color: #f3ebff;
+}
+.botones a{
+    border-radius: 10px;
+    border: 2px solid #d4b7ff;
+}
+.botones a:hover{
+    background-color: #e6d5ff
+}
+@media (max-width: 858px){
+ .preguntasFrecuentes,.wrapper{
+    width: 100%;
+ }  
+ .preguntasFrecuentes{
+    margin-top: 150px!important;
+ }
+ .violetas,.colorFondo{
+    height: fit-content;
+    padding: 15px 0px;
+ }
+}

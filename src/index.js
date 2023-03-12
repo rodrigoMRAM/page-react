@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Inicio from './Inicio';
 import Lashes from './Lashes';
 import Contenido from './Contenido';
+import Preguntas from './Preguntas';
+import Lifting from './Lifting';
 
 import { createRoot } from "react-dom/client";
 import {
@@ -22,6 +23,9 @@ const router = createBrowserRouter(
   <Route path='/' element={<Inicio/>}>
     <Route path='/' element={<Contenido/>}></Route>
     <Route path='lash' element={<Lashes/>}></Route>
+    <Route path='/preguntas' element={<Preguntas/>}></Route>
+    <Route path='/lifting' element={<Lifting/>}></Route>
+  
   </Route>   
 ));
 
