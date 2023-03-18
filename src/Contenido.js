@@ -49,19 +49,19 @@ const cambioOut3= ()=>{
             </div>
             <div className="imagenes">
                 <div className="imagen1">
-                    <img onMouseOver={cambioIn} onMouseOut={cambioOut} className="imgUbicacion" src="img/estudio.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn} onMouseOut={cambioOut} className="imgUbicacion" src="estudio.jpg" alt="" srcSet="" />
                     <div className="division disable">
                         <p>Pestañas</p>
                     </div>
                 </div>
                 <div className="imagen2">
-                    <img onMouseOver={cambioIn2} onMouseOut={cambioOut2} className="imgUbicacion1" src="img/lashes1.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn2} onMouseOut={cambioOut2} className="imgUbicacion1" src="lashes1.jpg" alt="" srcSet="" />
                     <div className="division1 disable">
                         <p>Confort</p>
                     </div>
                 </div>
                 <div className="imagen3">
-                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} className="imgUbicacion2" src="../img/estudio2.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} className="imgUbicacion2" src="../estudio2.jpg" alt="" srcSet="" />
                     <div className="division2 disable">
                         <p>Pestañas</p>
                     </div>

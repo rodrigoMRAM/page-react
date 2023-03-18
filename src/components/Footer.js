@@ -18,7 +18,7 @@ export default function Footer(){
                     <div className="seguinos">
                         <h3>Seguinos</h3>
                         <div className="divInstagram">
-                            <div><img src="img/inst.png" alt="" width="20px" /></div>
+                            <div><img src="inst.png" alt="" width="20px" /></div>
                             <div className='linkInstagram'><a href="https://www.instagram.com/florolguin_lashess/" target="_blank" rel="noreferrer">Instagram</a></div>
 
 
@@ -26,9 +26,9 @@ export default function Footer(){
                     </div>
                     <div className="pagos">
                         <h3>Medios de Pago</h3>
-                        <img src="img/mercadopago.png" alt="" width="50px" height="31.67px" />
-                        <img src="img/visa.png" alt="" width="50px" />
-                        <img src="img/mastercard.png" alt="" width="50px" />
+                        <img src="mercadopago.png" alt="" width="50px" height="31.67px" />
+                        <img src="visa.png" alt="" width="50px" />
+                        <img src="mastercard.png" alt="" width="50px" />
                     </div>
 
 
