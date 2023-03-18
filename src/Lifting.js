@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link, Outlet } from "react-router-dom"
+
+import { Link } from "wouter"
 export default function Lifting(){
 
 

@@ -1,19 +1,30 @@
-// import './App.css';
-// import Lashes from './Lashes';
-// import Inicio from './Inicio';
-// import Contenido from './Contenido';
-// import {
-//   BrowserRouter,
-//   Routes,
-//   Route,
-//   Switch,
-// } from "react-router-dom";
+import './App.css';
+
+import Top from './components/Top';
+import NavBar from './components/NavBar';
+import Logo from './components/Logo';
+import Footer from './components/Footer';
+import Rutas from './Rutas';
+import Whatsapp from './components/Whatsapp';
+import './css/Footer.css'
+import './css/Style.css'
+import './css/Responsive.css'
+import './css/Lash.css'
+import './css/Preguntas.css'
 
 
-// // function App() {
-// //   return (
 
-// //   );
-// // }
+function App(props){
+  return (
+        <div>
+            <Top />
+            <Logo size={"100px"} height={"100px"} />
+            <NavBar />
+            <Rutas/>
+            <Whatsapp/>
+            <Footer/>
+        </div>
+    );
+}
 
-// export default App;
+export default App;

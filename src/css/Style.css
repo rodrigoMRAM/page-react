@@ -107,6 +107,10 @@
         cursor: pointer;
         display: none;
     }
+    .columna{
+        display: flex;
+        flex-direction: column;
+    }
     #check{
         display: none;
     }

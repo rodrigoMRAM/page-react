@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link} from "wouter"
 import { useState , useEffect} from "react";
 export default function Preguntas(){
     const [desactivado, setDesactivado] = useState("")
