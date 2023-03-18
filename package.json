@@ -1,5 +1,6 @@
 {
   "name": "lashpage",
+  "homepage": "https://rodrigoMRAM.github.io/page-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
