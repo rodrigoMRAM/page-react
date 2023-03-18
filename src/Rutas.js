@@ -8,7 +8,7 @@ import Error404 from './Error404';
 export default function Rutas(){
     return(
          <Switch>
-        <Route path='/page-react' component={Contenido}></Route>
+        <Route path='/page-react/' component={Contenido}></Route>
         <Route path='/page-react/lash' component={Lashes}></Route>
         <Route path='/page-react/preguntas' component={Preguntas}></Route>
         <Route path='/page-react/lifting' component={Lifting}></Route>

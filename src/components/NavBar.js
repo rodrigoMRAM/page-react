@@ -75,7 +75,7 @@ export default function NavBar(){
                     </div>
                     </label>
                     <ul>
-                        <li><Link  onClick={nuevafuncion}  id="tab-inicio" to="/page-react">Inicio</Link></li>
+                        <li><Link  onClick={nuevafuncion}  id="tab-inicio" to="/page-react/">Inicio</Link></li>
                         <li><Link   onClick={nuevafuncion}  id="tab-lash" to="/page-react/lash">Pestañas</Link></li>
                         <li><Link  href="!#" onClick={nuevafuncion} id="tab-masajes">Masajes</Link></li>
                         <li><Link  to="/page-react/preguntas" onClick={nuevafuncion} id="tab-preguntas">Preguntas frecuentes</Link></li>

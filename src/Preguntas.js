@@ -16,8 +16,8 @@ export default function Preguntas(){
     return(
         <><div className="preguntasFrecuentes">
             <div className="botones">
-                <Link className=" actived desactiva2_"  to="/preguntas">Extensiones de Pestañas</Link>
-                <Link className="desactiva2"  onClick={cambio} to="/lifting">Lifting</Link>
+                <Link className=" actived desactiva2_"  to="/page-react/preguntas">Extensiones de Pestañas</Link>
+                <Link className="desactiva2"  onClick={cambio} to="/page-react/lifting">Lifting</Link>
             
         </div>
                 <div className="wrapper">
