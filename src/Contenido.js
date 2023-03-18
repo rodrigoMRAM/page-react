@@ -61,7 +61,7 @@ const cambioOut3= ()=>{
                     </div>
                 </div>
                 <div className="imagen3">
-                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} className="imgUbicacion2" src="../estudio2.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} className="imgUbicacion2" src="estudio2.jpg" alt="" srcSet="" />
                     <div className="division2 disable">
                         <p>Pestañas</p>
                     </div>
