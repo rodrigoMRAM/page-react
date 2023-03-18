@@ -80,15 +80,20 @@
     }
     a{
         font-weight: 800;
+        font-family: 'Poppins', sans-serif;
         letter-spacing: 0.5px;
         text-decoration: none;
         color: #000;
-        padding: 5px;
-        border-radius: 4px;
+        padding: 6px 15px;
+        border-radius: 100px;
     }
     li a:hover{
         background-color: rgb(246, 222, 255);
         transition: 0.3s;
+    }
+
+    a:active{
+        background-color: rgb(246, 222, 255);
     }
 
 
@@ -120,7 +125,6 @@
     .turno{
         color: black;
         font-weight: bolder;
-        padding: 8px 5px;
         background-color: rgb(246, 222, 255);
     }
 .contenido{
@@ -170,6 +174,7 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
     height: 70vh;
     background-color: rgba(0,0,0,0.52);
     position: absolute;
+    transition-delay:1s;
 }
 
 .disable{
@@ -179,9 +184,14 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
 .active{
     background-color: #f3ebff;
 }
-
-.activa2{
+.actived{
+    background-color: #fff9f9;
+}
+.colorcito{
     background-color: red;
+}
+.activa2{
+    background-color: #f3ebff;
 }
 .whatsapp{
     position: fixed;
@@ -189,5 +199,18 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
     right: 20px;
 }
 
+.error404{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error404 a{
+    background-color: red;
+    border: 2px solid red;
+}
 
-
+.desaparecer{
+    background-color: #f3ebff;
+}

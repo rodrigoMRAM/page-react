@@ -44,8 +44,12 @@ h6{
     height: 150px;
     background-color: #f3ebff;
 }
+.colorFondo p, .colorFondo h6,.violetas p,.violetas h6{
+    align-self: center;
+    width: 90%;
+}
 .botones a{
-    border-radius: 10px;
+    border-radius: 100px;
     border: 2px solid #d4b7ff;
 }
 .botones a:hover{
@@ -62,4 +66,7 @@ h6{
     height: fit-content;
     padding: 15px 0px;
  }
+ .colorFondo p, .colorFondo h6,.violetas p,.violetas h6{
+    width: 80%;
+}
 }
