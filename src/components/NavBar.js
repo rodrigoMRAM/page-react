@@ -1,4 +1,5 @@
 import { Link} from "wouter";
+import Logo from "../Logo";
 export default function NavBar(){
     const nuevafuncion=()=>{
         const miCheck = document.getElementById("check")
@@ -6,6 +7,10 @@ export default function NavBar(){
         return miCheck.checked = false
         
     }
+    const funcion2 =()=>{  
+         document.documentElement.scrollTop = 0;
+        }
+        
 
     // const [efecto , setEfecto] = useState("")
     // const otraFunc=()=>{
@@ -66,7 +71,7 @@ export default function NavBar(){
     return (
         <div className="navBar">
                 <nav className="nav">
-
+                <img src="path3.png" alt="logo de flor olguin" srcSet=""/>
                     <input onClick={(evento)=>{console.log(evento)}} type="checkbox" id="check" />
                     <label  htmlFor="check" className="checkbtn">   <div className="burger">
                         <span></span>
@@ -75,11 +80,11 @@ export default function NavBar(){
                     </div>
                     </label>
                     <ul>
-                        <li><Link  onClick={nuevafuncion}  id="tab-inicio" to="/page-react/">Inicio</Link></li>
-                        <li><Link   onClick={nuevafuncion}  id="tab-lash" to="/page-react/lash">Pestañas</Link></li>
-                        <li><Link  href="!#" onClick={nuevafuncion} id="tab-masajes">Masajes</Link></li>
-                        <li><Link  to="/page-react/preguntas" onClick={nuevafuncion} id="tab-preguntas">Preguntas frecuentes</Link></li>
-                        <li><a className='turno'  href="!#" id="tab-index">AGENDAR TURNO</a></li>
+                        <li><Link  onClick={(event) => { nuevafuncion(event); funcion2();}}  id="tab-inicio" to="/page-react/">Inicio</Link></li>
+                        <li><Link   onClick={(event) => { nuevafuncion(event); funcion2();}} id="tab-lash" to="/page-react/lash">Pestañas</Link></li>
+                        <li><Link  to="/page-react/masajes" onClick={(event) => { nuevafuncion(event); funcion2();}} id="tab-masajes">Masajes</Link></li>
+                        <li><Link  to="/page-react/preguntas" onClick={(event) => { nuevafuncion(event); funcion2();}} id="tab-preguntas">Preguntas frecuentes</Link></li>
+                        <li><a className='turno'  href="https://wa.link/5094zd" id="tab-index">AGENDAR TURNO</a></li>
                     </ul>
 
                 </nav>

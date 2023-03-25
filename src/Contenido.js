@@ -3,9 +3,51 @@ import { useState } from "react";
 
 
 
-
-
 export default function Contenido() {
+window.addEventListener("scroll",(event)=>{
+    if(window.pageYOffset> 400){
+
+    }
+
+})
+
+
+
+const [efecto1, setEfecto1] = useState("")
+window.addEventListener("scroll" ,(event)=>{
+   if(window.pageYOffset> 350){
+       
+       setEfecto1("efectoNum1")
+    }
+    
+
+})
+
+const [efecto2, setEfecto2] = useState("")
+window.addEventListener("scroll" ,(event)=>{
+    if(window.pageYOffset> 650){
+        setEfecto2("efectoNum1")
+        
+    }
+    
+
+})
+
+
+const [efecto3, setEfecto3] = useState("")
+window.addEventListener("scroll" ,(event)=>{
+    if(window.pageYOffset> 1100){
+        setEfecto3("efectoNum1")
+        
+    }
+    
+
+})
+
+
+
+
+
     const [efectoMouse1, efectoMouse] = useState("");
 
     const [efectoMouse2, efectoMouses2] = useState("");
@@ -49,19 +91,19 @@ const cambioOut3= ()=>{
             </div>
             <div className="imagenes">
                 <div className="imagen1">
-                    <img onMouseOver={cambioIn} onMouseOut={cambioOut} className="imgUbicacion" src="estudio.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn} onMouseOut={cambioOut} className="imgUbicacion" id={efecto1} src="estudioo.jpg" alt="" srcSet="" />
                     <div className="division disable">
                         <p>Pestañas</p>
                     </div>
                 </div>
                 <div className="imagen2">
-                    <img onMouseOver={cambioIn2} onMouseOut={cambioOut2} className="imgUbicacion1" src="lashes1.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn2} onMouseOut={cambioOut2} className="imgUbicacion1" id={efecto2} src="estudio1.jpg" alt="" srcSet="" />
                     <div className="division1 disable">
                         <p>Confort</p>
                     </div>
                 </div>
                 <div className="imagen3">
-                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} className="imgUbicacion2" src="estudio2.jpg" alt="" srcSet="" />
+                    <img onMouseOver={cambioIn3} onMouseOut={cambioOut3} id={efecto3} className="imgUbicacion2"  src="estudio2.jpg" alt="" srcSet="" />
                     <div className="division2 disable">
                         <p>Pestañas</p>
                     </div>

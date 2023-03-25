@@ -44,7 +44,7 @@ h6{
     height: 150px;
     background-color: #f3ebff;
 }
-.colorFondo p, .colorFondo h6,.violetas p,.violetas h6{
+.colorFondo p, .colorFondo h6,.violetas p,.violetas h6, .tituloExtensiones{
     align-self: center;
     width: 90%;
 }
@@ -66,7 +66,7 @@ h6{
     height: fit-content;
     padding: 15px 0px;
  }
- .colorFondo p, .colorFondo h6,.violetas p,.violetas h6{
-    width: 80%;
+ .colorFondo p, .colorFondo h6,.violetas p,.violetas h6, .tituloExtensiones{
+    width: 90%;
 }
 }

@@ -7,7 +7,7 @@ export default function Preguntas(){
         const desactiva2_ = document.querySelector('.desactiva2_')
         const desactiva2 = document.querySelector('.desactiva2');
         
-        setDesactivado(desactiva2_.classList.toggle('activa2'))
+        setDesactivado(desactiva2.classList.toggle('activa2'))
     }
 
     useEffect(()=>{
@@ -16,8 +16,9 @@ export default function Preguntas(){
     return(
         <><div className="preguntasFrecuentes">
             <div className="botones">
-                <Link className=" actived desactiva2_"  to="/page-react/preguntas">Extensiones de Pestañas</Link>
+                <Link className=" actived desactiva2_"  to="/page-react/preguntas">Extensiones</Link>
                 <Link className="desactiva2"  onClick={cambio} to="/page-react/lifting">Lifting</Link>
+                <Link className="desactiva2"  onClick={cambio} to="/page-react/cejas">Cejas</Link>
             
         </div>
                 <div className="wrapper">

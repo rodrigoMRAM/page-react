@@ -6,6 +6,7 @@ import Logo from './components/Logo';
 import Footer from './components/Footer';
 import Rutas from './Rutas';
 import Whatsapp from './components/Whatsapp';
+import Instagram from './components/Instagram';
 import './css/Footer.css'
 import './css/Style.css'
 import './css/Responsive.css'
@@ -21,6 +22,7 @@ function App(props){
             <Logo size={"100px"} height={"100px"} />
             <NavBar />
             <Rutas/>
+            <Instagram/>
             <Whatsapp/>
             <Footer/>
         </div>

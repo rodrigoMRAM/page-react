@@ -1,3 +1,5 @@
+import { Link} from "wouter";
+
 export default function Footer(){
     return(
         <div>
@@ -5,10 +7,12 @@ export default function Footer(){
                 <div className="footer">
                     <div className="servicios" >
                         <h3>Servicios</h3>
-                        <p>Pestañas</p>
-                        <p>Lifting</p>
-                        <p>Cejas</p>
-                        <p>Masajes</p>
+                        
+                        <Link    id="tab-inicio" to="/page-react/">Inicio</Link>
+                        <Link    id="tab-inicio" to="/page-react/lash">Extensiones</Link>
+                        <Link    id="tab-inicio" to="/page-react/masajes">Masajes</Link>
+                        <Link    id="tab-inicio" to="/page-react/preguntas">Preguntas</Link>
+                        
                     </div>
                     <div className="direccion">
                         <h3>Dirección</h3>
@@ -34,6 +38,6 @@ export default function Footer(){
 
                 </div>
             </footer>
-            </div>
+        </div>
     )
 }

@@ -7,8 +7,9 @@ export default function Lifting(){
         <div className="preguntasFrecuentes">
             <div className="botones">
             
-                <Link className="desactiva2"  to="/page-react/preguntas">Extensiones de Pestañas</Link>
+                <Link className="desactiva2"  to="/page-react/preguntas">Extensiones</Link>
                 <Link className="actived" to="/page-react/lifting">Lifting</Link>
+                <Link className="desactiva2"  to="/page-react/cejas">Cejas</Link>
         </div>
                 <div className="wrapper">
                     <div className="tituloExtensiones">

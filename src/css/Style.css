@@ -118,6 +118,9 @@
         float: left;
         display: flex;
         flex-direction: column;
+        position: absolute;
+        right: -15px;
+        top: -8px;
     }
     .burger span{
         margin: 4px 0;
@@ -199,9 +202,23 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
 }
 .whatsapp{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
+
 }
+
+.instaLogo{
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+.fondoW{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+}
+.nav img{
+    display: none;
+}
+
 
 .error404{
     display: flex;
@@ -218,3 +235,78 @@ APARTADO EFECTO EN IMAGENES EN CONJUNTO CON CODE.JS */
 .desaparecer{
     background-color: #f3ebff;
 }
+
+
+#efectoTransicion{
+    animation-name: mianimacion;
+    animation-duration: 1s;
+
+}
+@keyframes mianimacion {
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.imagenplus{
+    width: 15px!important;
+    height: 15px!important;
+}
+.boton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botonl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+  /* .pepe{
+    opacity: 0;
+  } */
+.botonFuncion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boton__funcion  p{
+    animation: nuevoEfecto;
+    animation-duration: 1s;
+}
+@keyframes nuevoEfecto {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* @keyframes mianimacion {
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+    
+} */

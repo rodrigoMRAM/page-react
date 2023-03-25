@@ -16,6 +16,22 @@
     font-family: 'DM Sans', sans-serif;
     font-weight: 200;
 }
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+.servicios a{
+    padding:  0;
+    margin: 0;
+    font-weight: 100;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: normal;
+}
+
+.servicios h3,.direccion h3, .seguinos h3,.pagos h3{
+    margin-bottom: 10px;
+}
+
 
 @media (max-width: 858px){
     .footer{
