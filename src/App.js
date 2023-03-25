@@ -18,12 +18,16 @@ import './css/Preguntas.css'
 function App(props){
   return (
         <div>
+            <header>
             <Top />
             <Logo size={"100px"} height={"100px"} />
+            </header>
             <NavBar />
             <Rutas/>
+            <aside>
             <Instagram/>
             <Whatsapp/>
+            </aside>
             <Footer/>
         </div>
     );

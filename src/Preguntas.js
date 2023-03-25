@@ -14,7 +14,7 @@ export default function Preguntas(){
         document.title = "Preguntas Frecuentes"
     },[]);
     return(
-        <><div className="preguntasFrecuentes">
+        <section><div className="preguntasFrecuentes">
             <div className="botones">
                 <Link className=" actived desactiva2_"  to="/page-react/preguntas">Extensiones</Link>
                 <Link className="desactiva2"  onClick={cambio} to="/page-react/lifting">Lifting</Link>
@@ -66,6 +66,6 @@ export default function Preguntas(){
                         <p> La aplicación de las extensiones de pestañas puede tomar de 1 a 2 horas, dependiendo de la cantidad de pestañas a aplicar.</p>
                     </div>
                 </div>
-            </div></>
+            </div></section>
     );
 }

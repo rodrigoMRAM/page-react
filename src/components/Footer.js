@@ -2,7 +2,6 @@ import { Link} from "wouter";
 
 export default function Footer(){
     return(
-        <div>
         <footer>
                 <div className="footer">
                     <div className="servicios" >
@@ -38,6 +37,5 @@ export default function Footer(){
 
                 </div>
             </footer>
-        </div>
     )
 }

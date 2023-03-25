@@ -3,6 +3,7 @@ import { Link } from "wouter"
 export default function Cejas(){
 
     return(
+        <section>
         <div className="preguntasFrecuentes">
             <div className="botones">
             
@@ -41,5 +42,6 @@ export default function Cejas(){
                     </div>
                 </div>
             </div>
+            </section>
     );
 }

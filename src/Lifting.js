@@ -4,6 +4,7 @@ export default function Lifting(){
 
 
     return(
+        <section>
         <div className="preguntasFrecuentes">
             <div className="botones">
             
@@ -57,5 +58,6 @@ export default function Lifting(){
                     </div>
                 </div>
             </div>
+            </section>
     );
 }

@@ -69,6 +69,7 @@ export default function NavBar(){
     }
 
     return (
+        <nav>
         <div className="navBar">
                 <nav className="nav">
                 <img src="path3.png" alt="logo de flor olguin" srcSet=""/>
@@ -89,5 +90,6 @@ export default function NavBar(){
 
                 </nav>
             </div>
+            </nav>
     )
 }

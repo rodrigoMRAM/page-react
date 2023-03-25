@@ -123,6 +123,7 @@ export default function Lashes() {
         document.title = "Extensiones de Pestañas"
     })
     return (
+        <section>
         <div className="contenido">
             <div className="extension">
                 <h1>Pestañas</h1>
@@ -133,10 +134,10 @@ export default function Lashes() {
                 <div className="extensiones-h3">
                     <h3>Extensiones clasicas</h3>
                     <div className="botonl">
-                    <div className="botonFuncion">
+                    <div className="botonFuncion" onClick={miInfo}>
 
                         <img className="imagenplus" src={info + ".png"} alt="" srcset="" />
-                        <a className="info" onClick={miInfo}>Info</a>
+                        <a className="info" >Info</a>
                     </div>
                         <div className="boton__funcion">
                             <p className="pepe disable">ipsum asdaisjdaoisdjaosidjaso oidjsaosdfsf isdf sf shfoishfsfisfs iufsiufn</p>
@@ -148,10 +149,10 @@ export default function Lashes() {
                 <div className="lifting-h3">
                     <h3>Extensiones 2D</h3>
                     <div className="boton">
-                    <div className="botonFuncion">
+                    <div className="botonFuncion" onClick={miInfo1}>
 
                         <img className="imagenplus" src={info1 + ".png"} alt="" srcset="" />
-                        <a className="info" onClick={miInfo1}>Info</a>
+                        <a className="info" >Info</a>
                     </div>
                         <div className="boton__funcion">
 
@@ -166,10 +167,10 @@ export default function Lashes() {
                 <div className="extensiones-h3">
                     <h3>Extensiones 3D</h3>
                     <div className="botonl">
-                    <div className="botonFuncion">
+                    <div className="botonFuncion" onClick={miInfo2}>
 
                         <img className="imagenplus" src={info2 + ".png"} alt="" srcset="" />
-                        <a className="info" onClick={miInfo2}>Info</a>
+                        <a className="info" >Info</a>
                     </div>
                         <div className="boton__funcion">
 
@@ -183,10 +184,10 @@ export default function Lashes() {
                 <div className="extensiones-h3">
                     <h3>Extensiones 5D</h3>
                     <div className="boton">
-                        <div className="botonFuncion">
+                        <div className="botonFuncion" onClick={miInfo3}>
 
                             <img className="imagenplus" src={info3 + ".png"} alt="" srcset="" />
-                            <a className="info" onClick={miInfo3}>Info</a>
+                            <a className="info" >Info</a>
                         </div>
                         <div className="boton__funcion">
 
@@ -203,10 +204,10 @@ export default function Lashes() {
                 <div className="extensiones-h3">
                     <h3>Lifting</h3>
                     <div className="botonl">
-                    <div className="botonFuncion">
+                    <div className="botonFuncion" onClick={miInfo4}>
 
                         <img className="imagenplus" src={info4 + ".png"} alt="" srcset="" />
-                        <a className="info" onClick={miInfo4}>Info</a>
+                        <a className="info" >Info</a>
                     </div>
                         <div className="boton__funcion">
 
@@ -216,5 +217,6 @@ export default function Lashes() {
                 </div>
             </div>
         </div>
+        </section>
     );
 }

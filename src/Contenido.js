@@ -84,6 +84,7 @@ const cambioOut3= ()=>{
     efectoMouses3(division2.classList.add("disable"))
 }
     return (
+        <section>
         <div className="contenido">
             <div className="container">
                 <Logo size="300px" height="300px"></Logo>
@@ -110,6 +111,7 @@ const cambioOut3= ()=>{
                 </div>
             </div>
         </div>
+        </section>
     
     )
 }
